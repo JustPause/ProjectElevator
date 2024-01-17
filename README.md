@@ -10,7 +10,7 @@ Welcome to Zombe, an immersive first-person game set in an abandoned hotel. In t
 
 # Clone the repository
 
-``` git clone https://github.com/your-username/zombe.git ```
+``` git clone https://github.com/JustPause/ProjectElevator.git ```
 
 # Gameplay
 
