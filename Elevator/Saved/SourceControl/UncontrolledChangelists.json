@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/UnrealGames/ProjectElevator/Elevator/Content/StarterContent/Props/MaterialSphere.uasset",
+				"D:/UnrealGames/ProjectElevator/Elevator/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/C8/Z38FT77DKZLKDXTQ7PZNM4.uasset",
+				"D:/UnrealGames/ProjectElevator/Elevator/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/CF/ZNIOCRD90Z70MMV9NMW778.uasset",
+				"D:/UnrealGames/ProjectElevator/Elevator/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/GI/GZM47KS5FPIQH5TLSYC1ME.uasset",
+				"D:/UnrealGames/ProjectElevator/Elevator/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/06/B36QB2ABUM82DR1U56CBIK.uasset"
+			]
+		}
+	]
+}
