@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Source\\Elevator\\Elevator.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\Elevator\\.vscode\\compileCommands_Elevator\\Elevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Source\\Elevator\\Elevator.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\Elevator\\.vscode\\compileCommands_Elevator\\Elevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Source\\Elevator\\Elevator.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\Elevator\\.vscode\\compileCommands_Elevator\\Elevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Source\\Elevator\\Private\\LiearingTheStuff.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\Elevator\\.vscode\\compileCommands_Elevator\\Elevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Source\\Elevator\\Public\\LiearingTheStuff.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\Elevator\\.vscode\\compileCommands_Elevator\\Elevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	}
+]

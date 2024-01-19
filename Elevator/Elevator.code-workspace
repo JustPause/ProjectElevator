@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "Elevator",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "D:\\UnReal\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Elevator Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Elevator Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Elevator Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Elevator Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Test",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Test",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Elevator Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Test",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Shipping",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Shipping",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Elevator Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "Elevator Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"Elevator",
+					"Win64",
+					"Shipping",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ElevatorEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Debug",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ElevatorEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ElevatorEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"label": "ElevatorEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ElevatorEditor",
+					"Win64",
+					"Development",
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\UnReal\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Elevator (Debug)",
+				"request": "launch",
+				"program": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "Elevator Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch Elevator (DebugGame)",
+				"request": "launch",
+				"program": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "Elevator Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch Elevator (Development)",
+				"request": "launch",
+				"program": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "Elevator Win64 Development Build",
+				"args": [
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch Elevator (Test)",
+				"request": "launch",
+				"program": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "Elevator Win64 Test Build",
+				"args": [
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch Elevator (Shipping)",
+				"request": "launch",
+				"program": "D:\\UnrealGames\\ProjectElevator\\Elevator\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "Elevator Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ElevatorEditor (Debug)",
+				"request": "launch",
+				"program": "D:\\UnReal\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "ElevatorEditor Win64 Debug Build",
+				"args": [
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject"
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ElevatorEditor (DebugGame)",
+				"request": "launch",
+				"program": "D:\\UnReal\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "ElevatorEditor Win64 DebugGame Build",
+				"args": [
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject"
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ElevatorEditor (Development)",
+				"request": "launch",
+				"program": "D:\\UnReal\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "ElevatorEditor Win64 Development Build",
+				"args": [
+					"D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject"
+				],
+				"cwd": "D:\\UnReal\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\UnReal\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\UnReal\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "D:\\UnReal\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=D:\\UnrealGames\\ProjectElevator\\Elevator\\Elevator.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "D:\\UnReal\\UE_5.3"
+			}
+		]
+	}
+}
