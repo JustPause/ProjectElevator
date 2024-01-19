@@ -2360,3 +2360,63 @@ Would you like to edit the code now?
 [2024.01.19-02.03.41:780][917]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Noncence/NewGameMode_Auto2
 [2024.01.19-02.03.41:780][917]LogSavePackage: Moving '../../../../../UnrealGames/ProjectElevator/Elevator/Saved/NewGameMode_Auto2FC2FB0954DB1A4154CC6A9A8D41C3C32.tmp' to '../../../../../UnrealGames/ProjectElevator/Elevator/Saved/Autosaves/Game/Noncence/NewGameMode_Auto2.uasset'
 [2024.01.19-02.03.41:781][917]LogFileHelpers: Auto-saving content packages took 0.034
+[2024.01.19-02.41.35:362][736]LogDerivedDataCache: C:/Users/Justinas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.056 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1019 files in 1714 folders with total size 51 MiB.
+[2024.01.19-01.26.34:987][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.19-01.26.36:753][840]LogSlate: Window 'Save Content' being destroyed
+[2024.01.19-01.26.36:761][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.19-01.26.36:785][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Noncence/NewGameMode" FILE="../../../../../UnrealGames/ProjectElevator/Elevator/Content/Noncence/NewGameMode.uasset" SILENT=true
+[2024.01.19-01.26.36:787][840]LogSavePackage: Moving output files for package: /Game/Noncence/NewGameMode
+[2024.01.19-01.26.36:787][840]LogSavePackage: Moving '../../../../../UnrealGames/ProjectElevator/Elevator/Saved/NewGameModeF9613799465EB2A3F177B890E44E6179.tmp' to '../../../../../UnrealGames/ProjectElevator/Elevator/Content/Noncence/NewGameMode.uasset'
+[2024.01.19-01.26.36:866][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 340 ms)
+[2024.01.19-01.26.36:870][840]LogStall: Shutdown...
+[2024.01.19-01.26.36:878][840]LogStall: Shutdown complete.
+[2024.01.19-01.26.36:915][840]LogSlate: Window 'Elevator - Unreal Editor' being destroyed
+[2024.01.19-01.26.37:010][840]AssetCheck: New page: Asset Save: NewGameMode
+[2024.01.19-01.26.37:010][840]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Noncence/NewGameMode.NewGameMode
+[2024.01.19-01.26.37:012][841]Cmd: QUIT_EDITOR
+[2024.01.19-01.26.37:012][841]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.01.19-01.26.37:015][841]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.19-01.26.37:015][841]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.01.19-01.26.37:015][841]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.01.19-01.26.37:015][841]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.19-01.26.37:015][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.19-01.26.37:015][841]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.19-01.26.37:023][841]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.01.19-01.26.37:562][841]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.19-01.26.37:562][841]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.19-01.26.37:562][841]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2024.01.19-01.26.37:562][841]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.01.19-01.26.37:562][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.19-01.26.37:563][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.19-01.26.37:567][841]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.19-01.26.37:568][841]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2024.01.19-01.26.37:571][841]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.19-01.26.37:571][841]LogExit: Preparing to exit.
+[2024.01.19-01.26.37:590][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.19-01.26.37:594][841]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.26.37:595][841]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.19-01.56.01:589][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.05.03:027][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.06.36:200][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.29.07:467][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.29.26:287][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.30.19:862][841]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.01.19-02.43.35:023][841]LogLiveCoding: Display: Starting Live Coding compile.
