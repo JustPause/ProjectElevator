@@ -4,6 +4,7 @@ Welcome to Zombe, an immersive first-person game set in an abandoned hotel. In t
 
 - [ProjectElevator - Hotel First Person Game](#projectelevator---hotel-first-person-game)
 - [Clone the repository](#clone-the-repository)
+- [Document](#document)
 - [Gameplay](#gameplay)
 - [Features](#features)
 - [Controls](#controls)
@@ -11,6 +12,10 @@ Welcome to Zombe, an immersive first-person game set in an abandoned hotel. In t
 # Clone the repository
 
 ``` git clone https://github.com/JustPause/ProjectElevator.git ```
+
+# Document
+
+``` https://docs.google.com/document/d/1WHLitJh6EuV848RsulodoxP2Lb_U3cHIp7pU9JERKMM/edit?usp=sharing ```
 
 # Gameplay
 

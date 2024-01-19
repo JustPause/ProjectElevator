@@ -1,0 +1,26 @@
+[
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\Source\\ProjectElevator\\ProjectElevator.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\.vscode\\compileCommands_Default\\ProjectElevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\Source\\ProjectElevator\\ProjectElevator.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\.vscode\\compileCommands_Default\\ProjectElevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\Source\\ProjectElevator\\ProjectElevator.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\UnrealGames\\ProjectElevator\\ProjectElevator\\.vscode\\compileCommands_Default\\ProjectElevator.1.rsp"
+		],
+		"directory": "D:\\UnReal\\UE_5.3\\Engine\\Source"
+	}
+]
